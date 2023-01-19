@@ -7,6 +7,7 @@ public class Main {
 try {
     Client[] array = new Client[3];
     array[0]=new Client("Fernando", "Ureña");
+
     do {
         selection = JOptionPane.showInputDialog("BIENVENIDO AL SISTEMA PARA CLIENTES\n\n"  +
                 "a. Añadir nuevo cliente \n" +
@@ -18,7 +19,7 @@ try {
 
 
         SelectedOption option = new SelectedOption();
-        option.selectionMethod(selection);
+        option.selectionMethod(selection, array);
     }while (selection != "e");
 }catch (Exception  e){
     System.out.println("Lo siento, algo salio mal.");

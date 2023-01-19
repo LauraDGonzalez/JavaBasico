@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b632a463-b361-49dc-8d7f-b2d9a2aab0dd" name="Changes" comment="Trabajo">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasico.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PuntoDos/PuntoDos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PuntoDos/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PuntoUno/PuntoUno.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PuntoUno/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PuntoUno/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PuntoUno/src/SelectedOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PuntoUno/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuntoUno/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PuntoUno/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuntoUno/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PuntoUno/src/SelectedOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuntoUno/src/SelectedOption.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674067577237</updated>
-      <workItem from="1674067578348" duration="25918000" />
+      <workItem from="1674067578348" duration="29056000" />
     </task>
     <servers />
   </component>
@@ -94,8 +86,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/PuntoUno/src/Client.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="9" />
+          <line>41</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

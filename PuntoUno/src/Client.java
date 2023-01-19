@@ -9,11 +9,14 @@ public class Client {
     int position;
 
     int counter;
-    Client[] array = new Client[3];
+    //Client[] array = new Client[3];
 
 
     public String getName() {
         return name;
+    }
+    public String getDni() {
+        return dni;
     }
 
     public void setName(String name) {
@@ -30,7 +33,8 @@ public class Client {
 
     }
 
-    public void addClient() {
+    public Client[] addClient(Client[] array) {
+
         name = JOptionPane.showInputDialog("Digite nombre");
         if (name.matches("[a-zA-Z]*")) {
             dni = JOptionPane.showInputDialog("Digite la cedula del ciente: ");
@@ -49,7 +53,7 @@ public class Client {
                     counter += 1;
                 }
                 for (int j = 0; j <3; j++){
-                    JOptionPane.showMessageDialog(null, "array " + array[j]);
+                    JOptionPane.showMessageDialog(null, "elementos en arreglo "+ array[j].getName() + array[j].getDni());
                 }
 
             } else {
@@ -58,6 +62,7 @@ public class Client {
         } else {
             JOptionPane.showMessageDialog(null, "Error name");
         }
+        return array;
     }
 
 

@@ -2,14 +2,17 @@ import javax.swing.*;
 
 public class SelectedOption {
     Client value = new Client();
+   // Client[] array = new Client[3];
 
 
-public void selectionMethod(String selection) {
+
+public void selectionMethod(String selection, Client[] array) {
 
     switch (selection) {
         case "a":
             showMessage("a");
-            value.addClient();
+
+            value.addClient(array);
             break;
         case "b":
             showMessage("b");
