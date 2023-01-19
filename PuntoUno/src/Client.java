@@ -24,12 +24,25 @@ public class Client {
 
     }
 
+    public void setDni(String dni) {
+        this.dni = dni;
+
+    }
+
     public Client(String name, String dni) {
         this.name = name;
         this.dni = dni;
+
     }
 
     public Client() {
+
+    }
+    public void aggClient(String nombre, String cc,int indice, Client[] array){
+       // array[indice].name=nombre;
+       // array[indice].dni=cc;
+        array[indice] = new Client(nombre, cc);
+
 
     }
 
@@ -39,9 +52,11 @@ public class Client {
         if (name.matches("[a-zA-Z]*")) {
             dni = JOptionPane.showInputDialog("Digite la cedula del ciente: ");
             if (dni.matches("[0-9]*")) {
+
                 for (int i = 0; i < 3; i++) {
                     if (array[i] == null) {
-                        array[i] = new Client(name, dni);
+                      // array[i] = new Client(name, dni);
+                        aggClient(name,dni,i,array);
 
 
                        break;
@@ -52,9 +67,7 @@ public class Client {
 
                     counter += 1;
                 }
-                for (int j = 0; j <3; j++){
-                    JOptionPane.showMessageDialog(null, "elementos en arreglo "+ array[j].getName() + array[j].getDni());
-                }
+
 
             } else {
                 JOptionPane.showMessageDialog(null, "Error dni ");
