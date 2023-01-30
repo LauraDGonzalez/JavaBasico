@@ -24,7 +24,7 @@ arreglo debe ser de tamaño 4.
 
 #### Se debe de mostrar algo así:
 
-![Texto alternativo](image.png)
+![Imagen 1](![image](https://user-images.githubusercontent.com/122939578/215370283-d2d9b104-d078-41b9-b303-d29440b1a7db.png))
 
 Cuando se seleccione la opción “a”: Se debe permitir añadir el nuevo cliente, para lo cual
 se debe de pedir el nombre y cedula. Se debe comprobar que el nombre no tenga ningún
@@ -53,7 +53,8 @@ En caso de que al borrar el cliente en la siguiente posición exista otro client
 cliente debe pasar a ocupar la nueva posición liberada, ejemplo:
 Se tiene el siguiente arreglo, y se elimina a Mateo
 
-![Texto alternativo](image.png)
+![Imagen 2](![image](https://user-images.githubusercontent.com/122939578/215370261-d94ad39b-d486-48da-95e3-818c95232e52.png)
+)
 
 <u> Cuando se seleccione la opción “c”:</u>  Se debe de mostrar un mensaje donde se indique el
 cliente a buscar, ese se debe de buscar por el número de cedula, y se debe de mostrar el
